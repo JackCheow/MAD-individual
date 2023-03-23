@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background ="@drawable/bg3">
+
+    <TextView
+        android:id="@+id/high_scores_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LEADERBOARDA"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/nameScoreList"
+        android:layout_width="match_parent"
+        android:layout_height="599dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:text="1> " />
+
+    <TextView
+        android:id="@+id/cta_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you one of the Top 25 Scorers?"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/start_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Challenge Now!"
+        android:textColor="#000000"
+        android:layout_margin="16dp"/>
+</LinearLayout>
+
